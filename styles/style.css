@@ -6,14 +6,26 @@
 
 h1 {
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 25px;
+  background-color: aliceblue;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .first_question {
-  background-color: blanchedalmond;
+  background-color: beige;
   padding-top: 0px;
   text-align: center;
   position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -25px;
+}
+
+.first_question .bookmark_top {
+  position: absolute;
+  left: 80%;
+  bottom: 80%;
 }
 
 .answer_button {
@@ -33,12 +45,12 @@ h1 {
 .first_question .language_ref li {
   list-style-type: none;
   display: inline;
-  border: 1px solid black;
+  border: 0.5px solid black;
   position: relative;
   bottom: 5px;
   right: 100px;
   border-radius: 4px;
-  padding: 1px;
-  font-size: smaller;
+  padding: 0px;
+  font-size: x-small;
   background-color: aqua;
 }
