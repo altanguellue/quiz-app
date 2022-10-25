@@ -14,4 +14,4 @@ This self developed application is made for music fans **especially in the elect
 
 I wish you all the luck & fun!
 
-Feel free to support my SoundCloud page. <button name="button" onclick="http://soundcloud.com/altanative">Click here!</button>
+Feel free to support my SoundCloud page. [Click here!](http://soundcloud.com/altanative)
