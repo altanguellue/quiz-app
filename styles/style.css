@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
   background-color: goldenrod;
 }
 
-.first_question {
+.question {
   background-color: beige;
   padding-top: 0px;
   text-align: center;
@@ -20,15 +20,15 @@ h1 {
   margin-top: -25px;
 }
 
-.first_question p {
+.question p {
   text-transform: uppercase;
 }
 
-.first_question p span {
+.question p span {
   display: block;
 }
 
-.first_question .bookmark_top {
+.question .bookmark_top {
   position: absolute;
   left: 80%;
   bottom: 80%;
@@ -48,7 +48,7 @@ h1 {
   margin: 15px;
 }
 
-.first_question .language_ref li {
+.question .language_ref li {
   list-style-type: none;
   display: inline;
   border: 0.5px solid black;
