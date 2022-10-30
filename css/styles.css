@@ -27,11 +27,23 @@ h2.qc-ref {
   padding-top: 25px;
 }
 
+.profile-picture {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 50px;
+  left: 70px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 .flex-container .cards {
@@ -102,13 +114,12 @@ h2.qc-ref {
 .nav-bar {
   background-color: #00a6fb;
   border-radius: 10px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   padding: auto;
-  /* margin-top: 100px; */
   /* border: 1px solid black; */
 }
 
@@ -140,4 +151,56 @@ a {
   bottom: 0;
   top: 0;
   padding-top: 8px;
+}
+
+.name-information {
+  position: absolute;
+  top: 220px;
+  left: 320px;
+  font-size: x-large;
+}
+.frage-antwort img {
+  position: absolute;
+  top: 320px;
+  left: 310px;
+}
+.frage-antwort p {
+  position: absolute;
+  top: 310px;
+  left: 365px;
+  font-size: medium;
+}
+
+.box {
+  width: 100px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  z-index: -1;
+  height: 45px;
+  position: absolute;
+  top: 312.5px;
+  left: 298px;
+}
+
+.gespeicherte-lesezeichen img {
+  position: absolute;
+  top: 320px;
+  left: 460px;
+}
+
+.gespeicherte-lesezeichen p {
+  position: absolute;
+  top: 311px;
+  left: 522px;
+  font-size: medium;
+}
+.box-2 {
+  width: 100px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  z-index: -1;
+  height: 45px;
+  position: absolute;
+  top: 312.5px;
+  left: 448px;
 }
