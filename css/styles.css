@@ -6,15 +6,23 @@
 body {
   background-color: lightskyblue;
 }
+
 h1 {
   text-align: center;
   text-transform: uppercase;
+  background-color: #00a6fb;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-stretch: wider;
 }
 
 h2.qc-ref {
   text-align: center;
   font-size: medium;
   text-transform: uppercase;
+  padding-top: 25px;
 }
 
 .flex-container {
@@ -30,6 +38,18 @@ h2.qc-ref {
   margin: 30px;
   border-radius: 6px;
   position: relative;
+  box-shadow: 5px 10px #b5838d;
+}
+.lesezeichen-leer {
+  position: absolute;
+  left: 600px;
+  bottom: 125px;
+}
+
+.lesezeichen-voll {
+  position: absolute;
+  left: 600px;
+  bottom: 125px;
 }
 
 .cards p {
@@ -74,4 +94,46 @@ h2.qc-ref {
 .answer-btn:active {
   background-color: hsl(71, 73%, 30%);
   transition: 0.6s;
+}
+
+.nav-bar {
+  background-color: #00a6fb;
+  border-radius: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  /* border: 1px solid black; */
+}
+
+a {
+  text-decoration: none;
+  /* border: 1px solid black; */
+  margin-bottom: 100px;
+}
+
+.nav-bar .profile {
+  /* border: 1px solid black; */
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.nav-bar .bookmark {
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.nav-bar .home {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  padding-top: 8px;
 }
