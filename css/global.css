@@ -1,0 +1,16 @@
+@import "styles.css";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-regular.eot);
+  src: url(../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-regular.svg);
+  src: url(../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-regular.ttf);
+  src: url(../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-regular.woff);
+  src: url(../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-regular.woff2);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
